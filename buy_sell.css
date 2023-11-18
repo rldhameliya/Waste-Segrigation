@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'roboto',sans-serif;
+}
+.flex{
+    display: flex;
+}
+.w-100{
+
+    width: 100%;
+  
+}
+.w-1140{
+
+    width: 1140px;
+    margin: auto;
+    
+}
+.header-50{
+    width: 27%;
+}
+.flex{
+    display: flex;
+    
+    
+}
+.bgcolor{
+    background-color:#6665ee;
+    padding: 26px 0px;
+    
+}
+button{
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;
+    margin-left: 65px;
+    background: white;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.logout button:hover{
+    
+        transform: scale(1.3);
+}
+.nav{
+    align-items: center;
+    padding: 20px 8%;
+}
+.logout  button a{
+    font-size: large;
+    font-weight: 700;
+    text-decoration: none;
+    color: #1d2026;
+    
+    
+}
+.logout button:hover{
+    /* transition: 1s; */
+    transform: scale(1.1);
+    background-color: #F7E1AE;
+}
+.w-t{
+    color: white;
+    padding-top: 30px;
+    margin-right: 100px;
+    margin-top: 0px;
+    margin-left: 120px;
+    
+    
+  
+   
+    
+}
+
+.backcolor{
+    background-color: #B0DAFF;
+}
+.w1 ul li a{
+    /* margin-right: 75px; */
+    justify-content: center;
+    color: #0C134F;
+    font-weight: bolder;
+    transition: 0.5s;
+    padding: 20px 100px;
+    display: block;
+    
+}
+.w1 ul li a:hover{
+    color: #C07F00;
+    transform: scale(1.3);
+}
+
+.w2{
+    height: 1px;
+}
+.bcolor{
+    background-color: #0C134F;
+   
+}
+i{
+    font-size: 25px;
+
+}
+.main{
+    background-color:#f3f5fa;
+    height: 100vh;
+    background-size:100%;
+    
+
+    /* background-image: linear-gradient(rgba(29, 32, 38, 0.8),rgba(29,32,38,0.8)), url(https://htmldemo.net/theface/theface-v3/assets/images/bg/cta-bg.jpg); */
+    /* background-image: linear-gradient(rgba(29, 32, 38, 0.8),rgba(29,32,38,0.8)),url(https://img.freepik.com/premium-photo/3d-rendering-double-step-podium-stand-pink-pastel-nature-rock-palm-scene-background_74387-516.jpg?size=626&ext=jpg&ga=GA1.1.996689205.1684134626&semt=ais); */
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #B0DAFF;
+    height:auto;
+    width: 100vw;
+    /* font-family: "Open Sans"; */
+    padding-top: 45px;w
+    color:#0C134F;
+    
+}
+
+.footer-top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.footer-top h3{
+    font-size: 3rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+    font-weight: bolder;
+    margin-bottom: 100px;
+}
+
+.footer-bottom h2{
+    max-width: 500px;
+    margin: 0px auto;
+    line-height: 20px;
+    text-align: center;
+    padding-top:30px;
+    padding-bottom: 15px;
+
+    
+    /* font-size: 14px; */
+}
+.back{
+    background-color: #6665ee;
+}
+.social{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.social li{
+    margin: 0 10px;
+}
+.social a{
+    text-decoration: none;
+    color: #fff;
+}
+.social a i{
+    /* font-size: 1.1rem;
+    transition: color .4s ease; */
+    font-size: x-large;
+    color: #0C134F
+}
+.social a:hover i{
+    color: #C07F00;
+    transform: scale(1.3);
+
+}
+
+.menu{
+    /* width: 100%; */
+    background-color:#DAF5FF;
+    position: absolute;
+    /* left: 0; */
+    display: none;  
+   
+}
+.w1 ul li:hover .menu{
+    display:block;
+    
+   
+}
+.w ul li a{
+    padding: 10px 20px;
+    font-weight: lighter;
+    text-transform: capitalize;
+    /* color: #1d2026; */
+    font-weight: bold;
+    color: #865439;
+     /* margin-bottom: 1px; */
+}
+
+.pos-rel{
+    position: relative;
+}
+ul ul li a{
+    padding: 10px 0px;
+
+}
+.w ul li a:hover{
+    color: #3B0000;
+}
+.wst p{
+    margin-top: 600px;
+}
+
+/* .title{
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+}
+.title p{
+    color:#F1DEC9;
+    font-weight: lighter;
+    font-size: 30px;
+}
+.title h1{
+    color: #E9A178;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.title font h2{
+    color: #F6D7A7;
+    font-size:25px;
+    font-weight: lighter;
+} */
